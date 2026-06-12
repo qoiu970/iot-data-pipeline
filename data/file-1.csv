@@ -1,0 +1,5 @@
+timestamp,sensorName,value
+2023-10-01T12:00:00Z,Sensor_A,10.5
+2023-10-01T12:05:00Z,Sensor_A,11.0
+invalid_time_string,Sensor_B,20.1
+2023-10-01T12:00:00Z,Sensor_C,not_a_number
