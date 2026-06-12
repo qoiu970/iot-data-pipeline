@@ -27,3 +27,23 @@ A robust, dockerized data pipeline designed to parse, validate, and ingest large
    ```bash
    git clone [https://github.com/qoiu970/iot-data-pipeline.git](https://github.com/qoiu970/iot-data-pipeline.git)
    cd iot-data-pipeline
+   
+##  (Optional) Generate Chaos Mock Data for testing:
+```bash
+pip install pandas numpy
+python generate_chaos_data.py
+```
+Run the pipeline:
+Ensure Docker Desktop is running, then execute:
+```bash
+docker compose up --build
+```
+The database will initialize automatically, and the Python workers will begin processing all .csv files located in the ./data directory.
+
+
+
+
+
+
+
+
