@@ -1,0 +1,4 @@
+timestamp,sensorName,value
+2023-10-01T12:00:00Z,Sensor_A,10.5
+2023-10-01T13:00:00+08:00,Sensor_B,99.9
+2023-10-01T13:05:00+08:00,Sensor_B,100.5
