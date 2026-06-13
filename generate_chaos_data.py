@@ -52,6 +52,6 @@ def generate_mock_data(filename="data/file-chaos.csv", num_rows=10000):
 
     df.to_csv(filename, index=False)
     print(f"Done! Generated {filename} with {len(df)} total rows (includes duplicates & bad data).")
+
 if __name__ == "__main__":
-    # gen large data records to test
     generate_mock_data("data/file-chaos.csv", 10000)
